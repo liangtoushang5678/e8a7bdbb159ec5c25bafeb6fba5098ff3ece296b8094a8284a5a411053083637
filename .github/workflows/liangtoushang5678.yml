@@ -2,27 +2,23 @@ name: liangtoushang5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
+    - cron: '3 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liangtoushang5678
         env:
-          co379: ${{ secrets.co379 }}
+          hzclb38: ${{ secrets.hzclb38 }}
         run: |
-          echo $co379 | jq -r .imtgg71791 | /bin/bash
-          echo $q55171 | jq -r .fghj50954 | /bin/bash
-          echo $nr25 | jq -r .mgg61611 | /bin/bash
-          echo $exdfq157 | jq -r .r92591 | /bin/bash
-          echo $zcj55222 | jq -r .xgg78334 | /bin/bash
-          echo $h1696 | jq -r .fcg4813 | /bin/bash
-          echo $gruzx38557 | jq -r .vjwl05869 | /bin/bash
-          echo $ncw9035 | jq -r .jo57 | /bin/bash
-          echo $d667 | jq -r .no10 | /bin/bash
-          echo $ic2 | jq -r .x11260 | /bin/bash
-          echo $hjzba96 | jq -r .jzaej2 | /bin/bash
-          echo $cvdvy28 | jq -r .kn64 | /bin/bash
-          echo $t5 | jq -r .zqtj62557 | /bin/bash
+          echo $hzclb38 | jq -r .khgci57 | /bin/bash
+          echo $lu6 | jq -r .b80339 | /bin/bash
+          echo $cr23 | jq -r .n972 | /bin/bash
+          echo $vc347 | jq -r .hczd558 | /bin/bash
+          echo $ox85 | jq -r .zfe194 | /bin/bash
+          echo $hfzmy8785 | jq -r .msok037 | /bin/bash
+          echo $wzl94657 | jq -r .p64 | /bin/bash
 
